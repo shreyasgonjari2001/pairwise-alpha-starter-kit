@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 
 def generate_signals(candles_target: pd.DataFrame, candles_anchor: pd.DataFrame) -> pd.DataFrame:
     """
